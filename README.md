@@ -5,7 +5,7 @@ Coursework for DSCI 553, covering large-scale data mining algorithms implemented
  
 ---
  
-## 🗂️ Repository Structure
+## Repository Structure
  
 ```
 data-mining/
@@ -20,9 +20,9 @@ data-mining/
  
 ---
  
-## 📋 Assignments
+## Assignments
  
-### 🔍 LSH — Locality Sensitive Hashing
+### LSH — Locality Sensitive Hashing
 **Folder:** `lsh/`
  
 Finds similar businesses in the Yelp dataset using MinHash signatures and LSH banding, approximating Jaccard similarity without brute-force pairwise comparison.
@@ -35,7 +35,7 @@ Finds similar businesses in the Yelp dataset using MinHash signatures and LSH ba
  
 ---
  
-### 🛒 SON Algorithm — Frequent Itemset Mining
+### SON Algorithm — Frequent Itemset Mining
 **Folder:** `son-algorithm/`
  
 SON algorithm with PCY and A-priori candidate generation across two datasets:
@@ -46,7 +46,7 @@ SON algorithm with PCY and A-priori candidate generation across two datasets:
  
 ---
  
-### ⭐ Recommender System
+### Recommender System
 **Folder:** `recommender-system/`
  
 Three approaches to predicting user ratings for Yelp businesses, plus a competition entry:
@@ -66,7 +66,7 @@ Three approaches to predicting user ratings for Yelp businesses, plus a competit
  
 ---
  
-### 🕸️ Girvan-Newman — Community Detection
+### Girvan-Newman — Community Detection
 **Folder:** `girvan-newman/`
  
 Detects communities in social networks using the Girvan-Newman algorithm, which iteratively removes edges with the highest betweenness centrality to reveal community structure.
@@ -75,7 +75,7 @@ Detects communities in social networks using the Girvan-Newman algorithm, which 
  
 ---
  
-### 💧 Bloom Filtering — Data Streams
+### Bloom Filtering — Data Streams
 **Folder:** `bloom-filtering/`
  
 Streaming data mining algorithms for memory-efficient probabilistic analysis:
@@ -86,7 +86,7 @@ Streaming data mining algorithms for memory-efficient probabilistic analysis:
  
 ---
  
-### 📦 BFR Clustering
+### BFR Clustering
 **Folder:** `bfr/`
  
 Implementation of the Bradley-Fayyad-Reina (BFR) algorithm for clustering large datasets that don't fit in memory, using sufficient statistics to summarize cluster shape.
@@ -95,7 +95,7 @@ Implementation of the Bradley-Fayyad-Reina (BFR) algorithm for clustering large 
  
 ---
  
-## 🛠️ Tech Stack
+## Tech Stack
  
 | Category | Tools |
 |---|---|
@@ -106,7 +106,7 @@ Implementation of the Bradley-Fayyad-Reina (BFR) algorithm for clustering large 
  
 ---
  
-## ▶️ Running the Code
+## Running the Code
  
 All PySpark scripts are designed for `spark-submit`. Example commands are included as comments at the bottom of each file. General pattern:
  
@@ -117,7 +117,7 @@ All PySpark scripts are designed for `spark-submit`. Example commands are includ
  
 ---
  
-## 📚 Course Info
+## Course Info
  
 - **Course:** DSCI 553 — Foundations and Applications of Data Mining
 - **Topics covered:** MapReduce · Frequent Itemsets · LSH/MinHash · Collaborative Filtering · Graph Analysis · Data Streams · Clustering · Link Analysis · Web Advertising
