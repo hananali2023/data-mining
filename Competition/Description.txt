@@ -1,0 +1,24 @@
+Method Description:
+This code implements a recommendation system for Yelp data using PySpark for data processing and XGBoost
+for regression modeling. The code processes the training and testing Yelp data together containing reviews,
+user, and business details. I extracted features from these sources, such as review metrics (useful, funny, cool),
+user statistics (average_stars, review_count, fans), and business statistics (average_stars, review_count). These
+features are combined into vectors for training and testing. Then, an XGBoost regression model is trained on teh features
+to predict user ratings for businesses. The predictions are generated for test data and evaluated against actual ratings
+from the validation dataset using Root Mean Square Error (RMSE).
+
+
+
+
+Error Distribution:
+
+
+
+
+RSME:
+0.9845232657450949
+
+
+Execution Time:
+247.02140617370605 seconds
+
